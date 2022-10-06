@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Instant_Cache_Cleaner</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+	<ApplicationIcon>icon.ico</ApplicationIcon>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
+    <Authors>Find.vu</Authors>
+    <PackageProjectUrl>https://find.vu/products/icc/</PackageProjectUrl>
+    <AssemblyName>ICC</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="icon.png" />
+  </ItemGroup>
+</Project>
